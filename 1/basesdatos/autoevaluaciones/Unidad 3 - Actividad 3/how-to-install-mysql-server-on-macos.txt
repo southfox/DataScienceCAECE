@@ -1,0 +1,18 @@
+To install MySQL Server on macOS, you can use Homebrew, a popular package manager for macOS. Here's a step-by-step guide:
+
+Install Homebrew: If you haven't installed Homebrew yet, you can do so by opening Terminal and executing the following command:
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+Install MySQL Server: Once Homebrew is installed, you can use it to install MySQL Server. Run the following command in Terminal:
+    brew install mysql
+Start MySQL Server: After the installation is complete, you can start the MySQL server by running the following command:
+    brew services start mysql
+Secure MySQL Installation: It's recommended to secure your MySQL installation by running the following command and following the instructions:
+    mysql_secure_installation
+This command will prompt you to set up a root password, remove anonymous users, disallow remote root login, and remove the test database. Follow the prompts to complete the process.
+Verify Installation: You can verify that MySQL Server is running by executing the following command:
+    brew services list
+This command should show mysql with started status.
+Access MySQL: To access the MySQL command-line interface, you can use the following command:
+    mysql -u root -p
+You will be prompted to enter the root password you set during the secure installation process.
+That's it! You've now installed MySQL Server on your macOS system using Homebrew. You can start creating databases, tables, and managing your MySQL server as needed.
