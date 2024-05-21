@@ -157,3 +157,6 @@ NO ES UN MODELO DE EXAMEN.
 24 de junio - 30 de junio
 Av. de Mayo 866 - CABA
 
+
+Resources:
+[Profesora en Youtube - ejercicios](https://www.youtube.com/@mariamonicaarguello4282)
